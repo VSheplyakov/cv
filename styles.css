@@ -93,7 +93,6 @@ body {
 }
 .skills-block {
   width: 50%;
-  padding: 0 0 0 px;
   color: var(--secondary-text-color);
 }
 .skills-title {
@@ -118,7 +117,6 @@ body {
 
 .education {
   display: flex;
-  /* justify-content: space-around; */
   padding: 4px 16px;
   color: var(--secondary-text-color);
 }
@@ -130,7 +128,6 @@ body {
 .additional-education h3,
 .base-education h3 {
   text-transform: uppercase;
-  /* margin: 0 -16px; */
 }
 
 .additional-education-box,
@@ -163,8 +160,6 @@ body {
   }
   .education {
     flex-direction: column;
-    /* margin: 0 16px; */
-    /* width: 100%; */
   }
   .additional-education,
   .base-education {
