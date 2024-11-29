@@ -169,3 +169,41 @@ body {
     gap: 16px;
   }
 }
+.language-selector {
+  position: relative;
+  top: 20px;
+  width: 150px;
+  z-index: 1000;
+  margin-left: auto;
+}
+
+.language-selector select {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  appearance: none;
+  -webkit-appearance: none; /* Safari */
+  -moz-appearance: none; /* Firefox */
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: left;
+  position: relative;
+}
+
+.language-selector::after {
+  content: '▼'; /* Додає стрілку вниз */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #555;
+  font-size: 12px;
+}
+
+#languageDropdown:focus {
+  outline: none;
+  

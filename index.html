@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="styles.css" />
   <script src="https://kit.fontawesome.com/57b1f335a4.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/i18next@latest/dist/umd/i18next.min.js"></script>
   <title>CV Frontend Developer - Valeriy Sheplyakov</title>
 </head>
 
@@ -13,8 +14,14 @@
   <main>
     <div class="wrapper">
       <div class="container">
+        <div class="language-selector">
+          <select id="languageDropdown" onchange="changeLanguage(this.value)">
+            <option value="en">English</option>
+            <option value="uk">Українська</option>
+          </select>
+        </div>
         <div class="block">
-          <h1 class="contact-info-title">Valeriy Sheplyakov</h1>
+          <h1 class="contact-info-title" data-i18n="name">Valeriy Sheplyakov</h1>
           <h2 class="contact-info-subtitle">Frontend Developer</h2>
           <div class="contact-info-container">
             <div class="contact-info-items location">
@@ -70,13 +77,7 @@
       </div>
       <div class="container">
         <div class="block">
-          <p class="summary-text">
-            I'm a Frontend Developer with a strong foundation in HTML, CSS, JavaScript, TypeScript, React, and Next.js.
-            I am proficient in building responsive and user-friendly web applications, leveraging modern tools such as
-            Material UI and Git for efficient development. My previous experience in sales and managing distribution
-            networks has honed my skills in understanding user needs and delivering optimal solutions. I am adaptable,
-            fast-learning, and thrive in Agile environments, where I collaborate closely with teams to meet challenging
-            project goals.
+          <p class="summary-text" data-i18n="summary">
           </p>
         </div>
       </div>
@@ -84,7 +85,7 @@
         <div class="block">
           <div class="skills-wrapper">
             <div class="skills-block">
-              <h3 class="skills-title">Tech skills</h3>
+              <h3 class="skills-title" data-i18n="tech_skills_title"></h3>
               <ul class="skills-item">
                 <li>JavaScript / TypeScript</li>
                 <li>HTML/CSS</li>
@@ -97,16 +98,16 @@
               </ul>
             </div>
             <div class="skills-block">
-              <h3 class="skills-title">Soft skills</h3>
+              <h3 class="skills-title" data-i18n="soft_skills_title"></h3>
               <ul class="skills-item">
-                <li>Problem-solving</li>
-                <li>Good analytical skills</li>
-                <li>Attention to detail</li>
-                <li>Teamwork</li>
-                <li>Responsible</li>
-                <li>Self-motivated</li>
-                <li>Punctual</li>
-                <li>Sociable</li>
+                <li data-i18n="soft_skill_1">Problem-solving</li>
+                <li data-i18n="soft_skill_2">Good analytical skills</li>
+                <li data-i18n="soft_skill_3">Attention to detail</li>
+                <li data-i18n="soft_skill_4">Teamwork</li>
+                <li data-i18n="soft_skill_5">Responsible</li>
+                <li data-i18n="soft_skill_6">Self-motivated</li>
+                <li data-i18n="soft_skill_7">Punctual</li>
+                <li data-i18n="soft_skill_8">Sociable</li>
               </ul>
             </div>
           </div>
@@ -115,52 +116,53 @@
       <div class="container">
         <div class="block">
           <div class="experience">
-            <h3 class="experience-title">Experience</h3>
+            <h3 class="experience-title" data-i18n="experience_title">Experience</h3>
             <div class="experience-block">
               <h3>
-                Frontend Developer | Onde - Events Aggregator Startup <a href="https://onde.events" target="_blank"
-                  class="contact-info-link">https://onde.events</a>
+                <span data-i18n="job_title">Frontend Developer</span> |
+                <span data-i18n="company_name">Onde - Events Aggregator Startup</span>
+                <a href="https://onde.events" target="_blank" class="contact-info-link">https://onde.events</a>
               </h3>
-              <span class="periods">June, 2023 - Present</span>
+              <span class="periods" data-i18n="job_period">June, 2023 - Present</span>
               <ul>
-                <li>Developed key features, including client and admin UI parts using TypeScript, React,
-                  and Next.js, ensuring high-performance, scalable web applications.</li>
-                <li>Implemented dynamic routing and server-side rendering (SSR) in Next.js, improving application
-                  performance and optimizing SEO through metadata management.</li>
-                <li>Wrote clean, modular, and maintainable code by applying best practices in component architecture,
-                  utilizing Provider, Controller, and Component patterns for organized code structure.</li>
-                <li>Optimized state management using useContext, custom hooks, and
-                  useMemo/useCallback to ensure efficient rendering and improved application
-                  performance.
-                </li>
-                <li>Integrated Material UI components to build accessible and responsive interfaces, enhancing the
-                  overall user experience across multiple devices.</li>
-                <li>Collaborated closely with the backend team to design and implement database within the
-                  Next.js backend.</li>
-                <li>Implemented tRPC for seamless data fetching, ensuring real-time communication between
-                  frontend and backend, improving user interaction with the platform.</li>
-                <li>Participated in daily standups, sprint demos, and planning sessions, contributing to successful
-                  two-week sprint cycles using Agile methodologies.</li>
-                <li>Utilized Git for version control, performed code reviews, and ensured adherence to coding standards
-                  for team collaboration and code quality.</li>
-                <li>Integrated dayjs with timezone and localization plugins to support accurate event
-                  scheduling across different time zones.</li>
-                <li>Contributed to the testing strategy by writing test cases using Jest with over 80% code
-                  coverage, ensuring the stability and reliability of the application.</li>
+                <li data-i18n="job_responsibility_1">Developed key features, including client and admin UI parts using
+                  TypeScript, React, and Next.js, ensuring high-performance, scalable web applications.</li>
+                <li data-i18n="job_responsibility_2">Implemented dynamic routing and server-side rendering (SSR) in
+                  Next.js, improving application performance and optimizing SEO through metadata management.</li>
+                <li data-i18n="job_responsibility_3">Wrote clean, modular, and maintainable code by applying best
+                  practices in component architecture, utilizing Provider, Controller, and Component patterns for
+                  organized code structure.</li>
+                <li data-i18n="job_responsibility_4">Optimized state management using useContext, custom hooks, and
+                  useMemo/useCallback to ensure efficient rendering and improved application performance.</li>
+                <li data-i18n="job_responsibility_5">Integrated Material UI components to build accessible and
+                  responsive interfaces, enhancing the overall user experience across multiple devices.</li>
+                <li data-i18n="job_responsibility_6">Collaborated closely with the backend team to design and implement
+                  database within the Next.js backend.</li>
+                <li data-i18n="job_responsibility_7">Implemented tRPC for seamless data fetching, ensuring real-time
+                  communication between frontend and backend, improving user interaction with the platform.</li>
+                <li data-i18n="job_responsibility_8">Participated in daily standups, sprint demos, and planning
+                  sessions, contributing to successful two-week sprint cycles using Agile methodologies.</li>
+                <li data-i18n="job_responsibility_9">Utilized Git for version control, performed code reviews, and
+                  ensured adherence to coding standards for team collaboration and code quality.</li>
+                <li data-i18n="job_responsibility_10">Integrated dayjs with timezone and localization plugins to support
+                  accurate event scheduling across different time zones.</li>
+                <li data-i18n="job_responsibility_11">Contributed to the testing strategy by writing test cases using
+                  Jest with over 80% code coverage, ensuring the stability and reliability of the application.</li>
               </ul>
             </div>
             <div class="experience-block">
               <h3>
-                Senior Sales Manager | FMCG Sales
+                <span data-i18n="job_title_sales">Senior Sales Manager</span> |
+                <span data-i18n="company_name_sales">FMCG Sales</span>
               </h3>
-              <span class="periods">2008 - 2022</span>
+              <span class="periods" data-i18n="job_period_sales">2008 - 2022</span>
               <ul>
-                <li>Managed distribution of company products through various retail channels.
-                </li>
-                <li>Increased sales through strategic planning and marketing activities.
-                </li>
-                <li>Negotiated with key accounts clients to secure contracts and build strong relationships.
-                </li>
+                <li data-i18n="job_responsibility_sales_1">Managed distribution of company products through various
+                  retail channels.</li>
+                <li data-i18n="job_responsibility_sales_2">Increased sales through strategic planning and marketing
+                  activities.</li>
+                <li data-i18n="job_responsibility_sales_3">Negotiated with key accounts clients to secure contracts and
+                  build strong relationships.</li>
               </ul>
             </div>
           </div>
@@ -170,51 +172,182 @@
         <div class="block">
           <div class="education">
             <div class="additional-education">
-              <h3>Additional IT education</h3>
+              <h3 data-i18n="additional_education_title">Additional IT education</h3>
               <div class="additional-education-box">
-                <h4>SoftServe IT Academy</h4>
-                <p>2022 (5 months)</p>
+                <h4 data-i18n="softserve_title">SoftServe IT Academy</h4>
+                <p data-i18n="softserve_period">2022 (5 months)</p>
                 <ul>
-                  <li>HTML5/CSS3/JS Fundamentals</li>
-                  <li>JS Fundamentals</li>
-                  <li>React Online Marathon</li>
+                  <li data-i18n="softserve_course_1">HTML5/CSS3/JS Fundamentals</li>
+                  <li data-i18n="softserve_course_2">JS Fundamentals</li>
+                  <li data-i18n="softserve_course_3">React Online Marathon</li>
                 </ul>
               </div>
               <div class="additional-education-box">
-                <h4>Udemy</h4>
-                <p>2022 (2 months)</p>
+                <h4 data-i18n="udemy_title">Udemy</h4>
+                <p data-i18n="udemy_period">2022 (2 months)</p>
                 <ul>
-                  <li>JS Full Course</li>
-                  <li>React Full Course</li>
+                  <li data-i18n="udemy_course_1">JS Full Course</li>
+                  <li data-i18n="udemy_course_2">React Full Course</li>
                 </ul>
               </div>
             </div>
             <div class="base-education">
-              <h3>Education</h3>
+              <h3 data-i18n="base_education_title">Education</h3>
               <div class="base-education-box">
-                <h4>Stryi College of Lviv National Agrarian
-                  University</h4>
-                <p>2005-2008</p>
+                <h4 data-i18n="college_title">Stryi College of Lviv National Agrarian University</h4>
+                <p data-i18n="college_period">2005-2008</p>
               </div>
               <div class="base-education-box">
-                <h4>Lviv National Environmental University</h4>
-                <p>2024 - Present</p>
+                <h4 data-i18n="university_title">Lviv National Environmental University</h4>
+                <p data-i18n="university_period">2024 - Present</p>
               </div>
               <div class="languages">
-                <h4>Languages:</h4>
+                <h4 data-i18n="languages_title">Languages:</h4>
                 <ul>
-                  <li>English - Intermediate</li>
-                  <li>Ukrainian - Native or bilingual proficiency</li>
-                  <li>Russian - Native or bilingual proficiency</li>
+                  <li data-i18n="language_english">English - Intermediate</li>
+                  <li data-i18n="language_ukrainian">Ukrainian - Native or bilingual proficiency</li>
+                  <li data-i18n="language_russian">Russian - Native or bilingual proficiency</li>
                 </ul>
               </div>
             </div>
-
           </div>
         </div>
       </div>
     </div>
   </main>
+  <script>
+    i18next.init({
+      lng: 'en',
+      resources: {
+        en: {
+          translation: {
+            name: "Valeriy Sheplyakov",
+            summary: "I'm a Frontend Developer with a strong foundation in HTML, CSS, JavaScript, TypeScript, React, and Next.js. I am proficient in building responsive and user-friendly web applications, leveraging modern tools such as Material UI and Git for efficient development. My previous experience in sales and managing distribution networks has honed my skills in understanding user needs and delivering optimal solutions. I am adaptable,fast-learning, and thrive in Agile environments, where I collaborate closely with teams to meet challengingproject goals.",
+            tech_skills_title: "Tech skills",
+            soft_skills_title: "Soft skills",
+            soft_skill_1: "Problem-solving",
+            soft_skill_2: "Good analytical skills",
+            soft_skill_3: "Attention to detail",
+            soft_skill_4: "Teamwork",
+            soft_skill_5: "Responsible",
+            soft_skill_6: "Self-motivated",
+            soft_skill_7: "Punctual",
+            soft_skill_8: "Sociable",
+            experience_title: "Experience",
+            job_title: "Frontend Developer",
+            company_name: "Onde - Events Aggregator Startup",
+            job_period: "June, 2023 - Present",
+            job_responsibility_1: "Developed key features, including client and admin UI parts using TypeScript, React, and Next.js, ensuring high-performance, scalable web applications.",
+            job_responsibility_2: "Implemented dynamic routing and server-side rendering (SSR) in Next.js, improving application performance and optimizing SEO through metadata management.",
+            job_responsibility_3: "Wrote clean, modular, and maintainable code by applying best practices in component architecture, utilizing Provider, Controller, and Component patterns for organized code structure.",
+            job_responsibility_4: "Optimized state management using useContext, custom hooks, and useMemo/useCallback to ensure efficient rendering and improved application performance.",
+            job_responsibility_5: "Integrated Material UI components to build accessible and responsive interfaces, enhancing the overall user experience across multiple devices.",
+            job_responsibility_6: "Collaborated closely with the backend team to design and implement database within the Next.js backend.",
+            job_responsibility_7: "Implemented tRPC for seamless data fetching, ensuring real-time communication between frontend and backend, improving user interaction with the platform.",
+            job_responsibility_8: "Participated in daily standups, sprint demos, and planning sessions, contributing to successful two-week sprint cycles using Agile methodologies.",
+            job_responsibility_9: "Utilized Git for version control, performed code reviews, and ensured adherence to coding standards for team collaboration and code quality.",
+            job_responsibility_10: "Integrated dayjs with timezone and localization plugins to support accurate event scheduling across different time zones.",
+            job_responsibility_11: "Contributed to the testing strategy by writing test cases using Jest with over 80% code coverage, ensuring the stability and reliability of the application.",
+            job_title_sales: "Senior Sales Manager",
+            company_name_sales: "FMCG Sales",
+            job_period_sales: "2008 - 2022",
+            job_responsibility_sales_1: "Managed distribution of company products through various retail channels.",
+            job_responsibility_sales_2: "Increased sales through strategic planning and marketing activities.",
+            job_responsibility_sales_3: "Negotiated with key accounts clients to secure contracts and build strong relationships.",
+            additional_education_title: "Additional IT education",
+            softserve_title: "SoftServe IT Academy",
+            softserve_period: "2022 (5 months)",
+            softserve_course_1: "HTML5/CSS3/JS Fundamentals",
+            softserve_course_2: "JS Fundamentals",
+            softserve_course_3: "React Online Marathon",
+            udemy_title: "Udemy",
+            udemy_period: "2022 (2 months)",
+            udemy_course_1: "JS Full Course",
+            udemy_course_2: "React Full Course",
+            base_education_title: "Education",
+            college_title: "Stryi College of Lviv National Agrarian University",
+            college_period: "2005-2008",
+            university_title: "Lviv National Environmental University",
+            university_period: "2024 - Present",
+            languages_title: "Languages:",
+            language_english: "English - Intermediate",
+            language_ukrainian: "Ukrainian - Native or bilingual proficiency",
+            language_russian: "Russian - Native or bilingual proficiency",
+          },
+        },
+        uk: {
+          translation: {
+            name: "Валерій Шепляков",
+            location: "Львів, Україна",
+            summary: "Я Frontend-розробник із глибокими знаннями HTML, CSS, JavaScript, TypeScript, React та Next.js. Я маю досвід створення адаптивних і зручних для користувачів веб-додатків, використовуючи сучасні інструменти, такі як Material UI та Git, для ефективної розробки. Мій попередній досвід у сфері продажів та управління дистрибуційними мережами дозволив мені розвинути навички розуміння потреб користувачів та створення оптимальних рішень. Я швидко навчаюсь, легко адаптуюсь і ефективно працюю в Agile-командах, де співпрацюю для досягнення складних цілей проекту.",
+            tech_skills_title: "Технічні навички",
+            soft_skills_title: "Особисті навички",
+            soft_skill_1: "Розв'язання проблем",
+            soft_skill_2: "Аналітичні здібності",
+            soft_skill_3: "Увага до деталей",
+            soft_skill_4: "Робота в команді",
+            soft_skill_5: "Відповідальність",
+            soft_skill_6: "Самомотивація",
+            soft_skill_7: "Пунктуальність",
+            soft_skill_8: "Комунікабельність",
+            experience_title: "Досвід",
+            job_title: "FrontEnd Developer",
+            company_name: "Onde - агрегатор події",
+            job_period: "Червень, 2023 - Зараз",
+            job_responsibility_1: "Розробив ключові функції, включаючи клієнтські та адміністративні інтерфейси з використанням TypeScript, React і Next.js, забезпечуючи високу продуктивність та масштабованість веб-додатків.",
+            job_responsibility_2: "Реалізував динамічну маршрутизацію та серверний рендеринг (SSR) у Next.js, покращуючи продуктивність додатка та оптимізуючи SEO через управління метаданими.",
+            job_responsibility_3: "Написав чистий, модульний і підтримуваний код, застосовуючи найкращі практики архітектури компонентів, використовуючи патерни Provider, Controller та Component для організації структури коду.",
+            job_responsibility_4: "Оптимізував управління станом за допомогою useContext, кастомних хуків і useMemo/useCallback для забезпечення ефективного рендерингу та підвищення продуктивності додатка.",
+            job_responsibility_5: "Інтегрував компоненти Material UI для створення доступних і адаптивних інтерфейсів, покращуючи загальний досвід користувачів на різних пристроях.",
+            job_responsibility_6: "Тісно співпрацював із бекенд-командою для проєктування та впровадження бази даних бекенду на Next.js.",
+            job_responsibility_7: "Реалізував tRPC для швидкого отримання даних, забезпечуючи реальний час взаємодії між фронтендом і бекендом, покращуючи користувацький досвід.",
+            job_responsibility_8: "Брав участь у щоденних мітингах, демонстраціях спринтів та плануванні, забезпечуючи успішні двотижневі спринти за методологією Agile.",
+            job_responsibility_9: "Використовував Git для контролю версій, проводив перевірки коду та забезпечував дотримання стандартів програмування для командної співпраці та якості коду.",
+            job_responsibility_10: "Інтегрував dayjs із плагінами для часових зон і локалізації, підтримуючи точне планування подій у різних часових зонах.",
+            job_responsibility_11: "Сприяв тестовій стратегії, написавши тести з використанням Jest із покриттям понад 80% коду, забезпечуючи стабільність і надійність додатка.",
+            job_title_sales: "Регіональний менеджер з продажу",
+            company_name_sales: "Продажі FMCG",
+            job_period_sales: "2008 - 2022",
+            job_responsibility_sales_1: "Керував дистрибуцією продукції компанії через різні роздрібні канали.",
+            job_responsibility_sales_2: "Збільшив продажі через стратегічне планування та маркетингові активності.",
+            job_responsibility_sales_3: "Проводив переговори з ключовими клієнтами для укладення контрактів і побудови міцних відносин.",
+            additional_education_title: "Додаткова IT освіта",
+            softserve_title: "IT Академія SoftServe",
+            softserve_period: "2022 (5 місяців)",
+            softserve_course_1: "HTML5/CSS3/JS Основи",
+            softserve_course_2: "Основи JS",
+            softserve_course_3: "React Онлайн Марафон",
+            udemy_title: "Udemy",
+            udemy_period: "2022 (2 місяці)",
+            udemy_course_1: "Повний курс JS",
+            udemy_course_2: "Повний курс React",
+            base_education_title: "Освіта",
+            college_title: "Стрийський коледж Львівського національного аграрного університету",
+            college_period: "2005-2008",
+            university_title: "Львівський національний природоохоронний університет",
+            university_period: "2024 - Зараз",
+            languages_title: "Мови:",
+            language_english: "Англійська - середній рівень",
+            language_ukrainian: "Українська - вільне володіння",
+            language_russian: "Російська - вільне володіння",
+          },
+        },
+      },
+    }, function (err, t) {
+      updateContent();
+    });
+
+    function changeLanguage(lang) {
+      i18next.changeLanguage(lang, updateContent);
+    }
+
+    function updateContent() {
+      document.querySelectorAll("[data-i18n]").forEach(function (element) {
+        const key = element.getAttribute("data-i18n");
+        element.textContent = i18next.t(key);
+      });
+    }
+  </script>
 </body>
 
 </html>
