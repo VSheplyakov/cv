@@ -36,7 +36,7 @@ i18next.init(
           job_responsibility_8:
             "Participated in daily meetings, planning and review of sprints, contributing to the successful implementation of two-week sprint cycles.",
           job_responsibility_9:
-            "Utilized Git for version control, performed code reviews, and ensured adherence to coding standards for team collaboration and code quality.",
+            "Used Git for version control and code reviews, ensuring compliance with coding standards for team collaboration and code quality.",
           job_responsibility_10:
             "Integrated the i18n library to support multiple languages",
           job_responsibility_11:
@@ -106,7 +106,7 @@ i18next.init(
           job_responsibility_8:
             "Брав участь у щоденних зустрічах, плануванні та огляді спринтів, сприяючи успішній реалізації двотижневих спринт-циклів.",
           job_responsibility_9:
-            "Використовував Git для контролю версій, проводив перевірки коду та забезпечував дотримання стандартів програмування для командної співпраці та якості коду.",
+            "Використовував Git для контролю версій та рев'ю коду, забезпечуючи дотримання стандартів кодування для командної співпраці та якості коду.",
           job_responsibility_10:
             "Інтегрував бібліотеку i18n для підтримки мульти мов.",
           job_responsibility_11:
