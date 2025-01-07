@@ -22,7 +22,7 @@ i18next.init(
           company_name: "Onde - Events Aggregator Startup",
           job_period: "June, 2022 - Present",
           job_responsibility_1:
-            "Developed key features, including client and admin UI parts using TypeScript, React, and Next.js, ensuring high-performance, scalable web applications.",
+            "Developed many features for the client and admin parts of the application using TypeScript, React, Next.js, providing high-performance, scalable web applications.",
           job_responsibility_2:
             "Implemented dynamic routing and server-side rendering (SSR) in Next.js, improving application performance and optimizing SEO through metadata management.",
           job_responsibility_3:
@@ -30,17 +30,17 @@ i18next.init(
           job_responsibility_4:
             "Optimized state management using useContext, custom hooks, and useMemo/useCallback to ensure efficient rendering and improved application performance.",
           job_responsibility_5:
-            "Integrated Material UI components to build accessible and responsive interfaces, enhancing the overall user experience across multiple devices.",
+            "Integrated Material UI components to create accessible and responsive interfaces that improve the overall user experience on mobile and desktop devices.",
           job_responsibility_7:
-            "Implemented tRPC for seamless data fetching, ensuring real-time communication between frontend and backend, improving user interaction with the platform.",
+            "Implemented tRPC for fast data fetching, providing interaction between the frontend and backend.",
           job_responsibility_8:
-            "Participated in daily meetings, sprint demonstrations and sprint planning, contributing to the successful implementation of two-week sprint cycles using Agile methodologies.",
+            "Participated in daily meetings, planning and review of sprints, contributing to the successful implementation of two-week sprint cycles.",
           job_responsibility_9:
             "Utilized Git for version control, performed code reviews, and ensured adherence to coding standards for team collaboration and code quality.",
           job_responsibility_10:
             "Integrated the i18n library to support multiple languages",
           job_responsibility_11:
-            "Contributed to the testing strategy by writing test cases using Jest with over 80% code coverage, ensuring the stability and reliability of the application.",
+            "Wrote test cases using Jest to ensure code coverage of more than 80%, ensuring the stability and reliability of the application.",
           job_title_sales: "Senior Sales Manager",
           company_name_sales: "FMCG Sales",
           job_period_sales: "2008 - 2022",
@@ -92,7 +92,7 @@ i18next.init(
           company_name: "Onde - агрегатор події",
           job_period: "Червень, 2023 - Зараз",
           job_responsibility_1:
-            "Розробив ключові функції, включаючи клієнтські та адміністративні інтерфейси з використанням TypeScript, React і Next.js, забезпечуючи високу продуктивність та масштабованість веб-додатків.",
+            "Розробив багато фічей, для клієнтської та адмінської частин додатку з використанням TypeScript, React, Next.js, забезпечуючи високопродуктивні, масштабовані веб-додатки.",
           job_responsibility_2:
             "Реалізував динамічну маршрутизацію та серверний рендеринг (SSR) у Next.js, покращуючи продуктивність додатка та оптимізуючи SEO через управління метаданими.",
           job_responsibility_3:
@@ -100,17 +100,17 @@ i18next.init(
           job_responsibility_4:
             "Оптимізував управління станом за допомогою useContext, кастомних хуків і useMemo/useCallback для забезпечення ефективного рендерингу та підвищення продуктивності додатка.",
           job_responsibility_5:
-            "Інтегрував компоненти Material UI для створення доступних і адаптивних інтерфейсів, покращуючи загальний досвід користувачів на різних пристроях.",
+            "Інтегрував компоненти Material UI для створення доступних та адаптивних інтерфейсів, що покращують загальний користувацький досвід на маобільних та десктопних пристроях.",
           job_responsibility_7:
-            "Реалізував tRPC для швидкого отримання даних, забезпечуючи реальний час взаємодії між фронтендом і бекендом, покращуючи користувацький досвід.",
+            "Реалізував tRPC для швидкого отримання даних, забезпечуючи взаємодію між фронтендом і бекендом",
           job_responsibility_8:
-            "Брав участь у щоденних зустрічах, спринт-демонстраціях та плануваннях спринті, сприяючи успішному проведенню двотижневих спринт-циклів з використанням Agile-методологій.",
+            "Брав участь у щоденних зустрічах, плануванні та огляді спринтів, сприяючи успішній реалізації двотижневих спринт-циклів.",
           job_responsibility_9:
             "Використовував Git для контролю версій, проводив перевірки коду та забезпечував дотримання стандартів програмування для командної співпраці та якості коду.",
           job_responsibility_10:
             "Інтегрував бібліотеку i18n для підтримки мульти мов.",
           job_responsibility_11:
-            "Сприяв тестовій стратегії, написавши тести з використанням Jest із покриттям понад 80% коду, забезпечуючи стабільність і надійність додатка.",
+            "Написав тестові кейси з використанням Jest для забезпечення стартегії покриття коду понад 80%, забезпечивши стабільність та надійність додатку.",
           job_title_sales: "Регіональний менеджер з продажу",
           company_name_sales: "Продажі FMCG",
           job_period_sales: "2008 - 2022",
