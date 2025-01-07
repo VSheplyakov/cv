@@ -15,11 +15,10 @@
   <main>
     <div class="wrapper">
       <div class="container">
-        <div class="language-selector">
-          <select id="languageDropdown" onchange="changeLanguage(this.value)">
-            <option value="en">English</option>
-            <option value="uk">Українська</option>
-          </select>
+        <div class="language-switcher">
+          <a href="#" data-lang="en" class="language-option language-option--active">EN</a> 
+          <span>|</span>
+          <a href="#" data-lang="uk" class="language-option">UA</a>
         </div>
         <div class="block">
           <h1 class="contact-info-title" data-i18n="name"></h1>
