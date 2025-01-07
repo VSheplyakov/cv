@@ -19,8 +19,8 @@ i18next.init(
           soft_skill_8: "Sociable",
           experience_title: "Experience",
           job_title: "Frontend Developer",
-          company_name: "Onde - Events Aggregator Startup",
-          job_period: "June, 2022 - Present",
+          company_name: "Onde - Events Aggregator Startup - ",
+          job_period: "June 2023 - January 2025 (1 year 7 months)",
           job_responsibility_1:
             "Developed many features for the client and admin parts of the application using TypeScript, React, Next.js, providing high-performance, scalable web applications.",
           job_responsibility_2:
@@ -89,8 +89,8 @@ i18next.init(
           soft_skill_8: "Комунікабельність",
           experience_title: "Досвід",
           job_title: "FrontEnd Developer",
-          company_name: "Onde - агрегатор події",
-          job_period: "Червень, 2023 - Зараз",
+          company_name: "Onde - агрегатор події - ",
+          job_period: "Червень 2023 - Січень 2025 (1 рік 7 місяців)",
           job_responsibility_1:
             "Розробив багато фічей, для клієнтської та адмінської частин додатку з використанням TypeScript, React, Next.js, забезпечуючи високопродуктивні, масштабовані веб-додатки.",
           job_responsibility_2:
