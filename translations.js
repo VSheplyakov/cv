@@ -6,7 +6,7 @@ i18next.init(
         translation: {
           name: "Valeriy Sheplyakov",
           summary:
-            "I am a Frontend developer with deep knowledge of HTML, CSS, JavaScript, TypeScript, React, and Next.js. I have experience building responsive and user-friendly web applications using modern tools for efficient development. My previous experience in sales and distribution network management allowed me to develop skills in understanding user needs and creating optimal solutions. I am a quick learner, adaptable and work effectively with teams to achieve complex project goals.",
+            "Experienced frontend developer with a strong focus on Next.js, React, TypeScript, and modern web technologies. Skilled in building scalable, high-performance applications with an emphasis on responsive design, accessibility, and optimal user experience. Proficient in integrating APIs, server-side rendering, and modern state management solutions. Previous experience in sales and distribution management has enhanced my ability to analyze user needs and develop solutions that align with business goals. A quick learner and adaptable team player, I excel at working in agile environments to deliver high-quality software solutions.",
           tech_skills_title: "Tech skills",
           soft_skills_title: "Soft skills",
           soft_skill_1: "Problem-solving",
@@ -86,7 +86,7 @@ i18next.init(
           name: "Валерій Шепляков",
           location: "Львів, Україна",
           summary:
-            "Я Frontend-розробник із глибокими знаннями HTML, CSS, JavaScript, TypeScript, React та Next.js. Я маю досвід створення адаптивних та зручних для користувачів веб-додатків, використовуючи сучасні інструменти для ефективної розробки. Мій попередній досвід у сфері продажів та управління дистрибуційними мережами дозволив мені розвинути навички розуміння потреб користувачів та створення оптимальних рішень. Я швидко навчаюсь, легко адаптуюсь і ефективно працюю команді, для досягнення складних цілей проекту.",
+            "Досвідчений фронтенд-розробник із сильним фокусом на Next.js, React, TypeScript та сучасних веб-технологіях. Досвідчений у створенні масштабованих, високопродуктивних додатків з акцентом на адаптивному дизайні, доступності та оптимальному користувацькому досвіді. Досвідчений в інтеграції API, рендерингу на стороні сервера та сучасних рішеннях управління станом.Попередній досвід в управлінні продажами та дистрибуцією покращив мою здатність аналізувати потреби користувачів та розробляти рішення, які відповідають бізнес-цілям. Я швидко вчуся і легко адаптуюся в команді, я чудово працюю в гнучких середовищах, щоб надавати високоякісні програмні рішення.",
           tech_skills_title: "Технічні навички",
           soft_skills_title: "Особисті навички",
           soft_skill_1: "Розв'язання проблем",
