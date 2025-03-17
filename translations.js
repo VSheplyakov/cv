@@ -20,15 +20,17 @@ i18next.init(
           experience_title: "Experience",
           job_title: "Frontend Developer",
           company_name: "Onde - Events Aggregator - ",
-          // onde
           job_period: "June 2023 - January 2025 (1 year 7 months)",
-          // errorsoftware
           job_periodEr: "January 2025 - present ",
-          job_responsibility_Err: `Creating new or working on existing company projects.`,
-          job_responsibility_Err1: `Using a stack of modern technologies - Next.js / Tailwind CSS / and libraries such as TanStack Query / TanStack Tables / Recharts / etc.`,
-          job_responsibility_Err2: `Implementation of new features, pixel perfect responsive design.`,
-          job_responsibility_Err2: `Interaction with the back end team.`,
-          job_responsibility_Err3: `Selecting and implementing specific technologies and libraries to provide functionality to fulfill project specifications`,
+          job_responsibility_Err:
+            "Creating new or working on existing company projects.",
+          job_responsibility_Err1:
+            "Using a stack of modern technologies - Next.js / Tailwind CSS / and libraries such as TanStack Query / TanStack Tables / Recharts / etc.",
+          job_responsibility_Err2:
+            "Implementation of new features, pixel perfect responsive design.",
+          job_responsibility_Err3: "Interaction with the back end team.",
+          job_responsibility_Err4:
+            "Selecting and implementing specific technologies and libraries to provide functionality to fulfill project specifications",
           job_responsibility_1:
             "Developed many features for the client and admin parts of the application using TypeScript, React, Next.js, providing high-performance, scalable web applications.",
           job_responsibility_2:
@@ -100,11 +102,15 @@ i18next.init(
           company_name: "Onde - агрегатор події - ",
           job_period: "Червень 2023 - Січень 2025 (1 рік 7 місяців)",
           job_periodEr: "Січень 2025 - зараз",
-          job_responsibility_Err: `Створення нових або робота над існуючими проектами компанії.`,
-          job_responsibility_Err1: `використанням стека сучасних технологій - Next.js / Tailwind CSS /  та бібліотек, таких як TanStack Query / TanStack Tables / Recharts / тощо.`,
-          job_responsibility_Err2: `Впровадження нових функцій, адаптивного дизайну pixel perfect.`,
-          job_responsibility_Err2: `Взаємодія з back end командою`,
-          job_responsibility_Err3: `Вибір та імплементація певних технологій та бібліотек для забезпечення функціоналу для виконання технічних завдань проектів`,
+          job_responsibility_Err:
+            "Створення нових або робота над існуючими проектами компанії.",
+          job_responsibility_Err1:
+            "Використанням стека сучасних технологій - Next.js / Tailwind CSS /  та бібліотек, таких як TanStack Query / TanStack Tables / Recharts / тощо.",
+          job_responsibility_Err2:
+            "Впровадження нових функцій, адаптивного дизайну pixel perfect.",
+          job_responsibility_Err3: "Взаємодія з back end командою",
+          job_responsibility_Err4:
+            "Вибір та імплементація певних технологій та бібліотек для забезпечення функціоналу для виконання технічних завдань проектів",
           job_responsibility_1:
             "Розробив багато фічей, для клієнтської та адмінської частин додатку з використанням TypeScript, React, Next.js, забезпечуючи високопродуктивні, масштабовані веб-додатки.",
           job_responsibility_2:
