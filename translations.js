@@ -19,7 +19,7 @@ i18next.init(
           experience_title: "Experience",
           job_title: "Frontend Developer",
           company_name: "Onde - Events Aggregator - ",
-          job_period: "June 2023 - January 2025 (1 year 7 months)",
+          job_period: "June 2022 - January 2025 (2 year 7 months)",
           job_periodEr: "January 2025 - present ",
           job_responsibility_Err:
             "Creating new or working on existing company projects.",
